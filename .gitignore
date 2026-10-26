@@ -1,0 +1,47 @@
+# Keil MDK build artifacts
+*.o
+*.d
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lnp
+*.dep
+*.lst
+*.crf
+*.build_log
+*.build_log*
+
+# Keil user-specific files
+*.uvguix.*
+*.uvoptx
+
+# Additional Keil generated/debug files
+*.dbgconf
+*.dbgconf.*
+*.scvd
+*.iex
+*.htm
+
+# Build folders
+Objects/
+Listings/
+
+# Keil generated output folders inside project folders
+**/MDK-ARM/F411_LED_BLINK/
+**/MDK-ARM/DebugConfig/
+
+# STM32CubeMX local metadata
+.mxproject
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
