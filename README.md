@@ -198,38 +198,9 @@ GitHub Documentation
 
 ---
 
-## Learning Roadmap
+## Next step
 
-Planned projects:
-
-| Project | Topic | Status |
-|---|---|---|
-| 01 | GPIO LED Blink | Completed |
-| 02 | GPIO Button Input | Completed |
-| 03 | GPIO External Interrupt (EXTI) | Planned |
-| 04 | UART Communication | Planned |
-| 05 | Hardware Timer Interrupt | Planned |
-| 06 | PWM Generation | Planned |
-| 07 | ADC Analog Acquisition | Planned |
-| 08 | I2C Sensor Communication | Planned |
-| 09 | SPI Communication | Planned |
-| 10 | FreeRTOS Fundamentals | Planned |
-
----
-
-## Long-Term Direction
-
-The goal of this repository is to build a solid STM32 foundation before moving toward more advanced embedded systems projects involving:
-
-- RC controller firmware
-- nRF24L01 wireless communication
-- UART / CRSF communication
-- PWM servo and ESC control
-- Sensors and IMU
-- CAN communication
-- FreeRTOS
-- Embedded control systems
-- Autonomous vehicle electronics
+The next expansion is planned around EXTI interrupts, UART, timers, PWM, and sensor interfaces. Advanced projects are published separately in the STM32 IMU and robotics repositories.
 
 ---
 
@@ -238,4 +209,8 @@ The goal of this repository is to build a solid STM32 foundation before moving t
 **Board:** STM32F411CEU6 Black Pill  
 **Current level:** GPIO fundamentals  
 **Completed projects:** 2  
-**Next project:** GPIO External Interrupt (EXTI)
+**Next step:** EXTI interrupt and UART practice
+
+## License
+
+Firmware and source code are released under the [MIT License](LICENSE).
